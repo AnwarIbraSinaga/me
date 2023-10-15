@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Merriweather:ital@1&family=Mooli&family=Nunito+Sans:wght@300;600;700&family=Poppins:ital,wght@0,100;0,300;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Google Sans Reguler";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fefefe;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.logo {
+    font-size: 25px;
+    font-family: 'mooli', cursive;
+    font-weight: bold;
+    color: #fefefe;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-family: 'Mooli', sans-serif;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color: #11101b;
+    background: #fefefe;
+    transition: all ease-in-out .3s;
+}
+/* header end */
+
+/* Content */
+.content {
+    padding: 80px 70px;
+    height: 349px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+}
+
+.content h1 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.content span {
+    color: aqua;
+}
+
+.content p {
+    font-size: 20px;
+    color: white;
+    padding: 20px 30px;
+}
+
+/* Content End */
+
+/* About */
+    .wrapper {
+        padding: 60px 0 60px 70px;
+        display: flex;
+    }
+
+    .left h1 {
+        font-size: 25px;
+        font-family: 'Mooli', sans-serif;
+        text-decoration: underline 3px solid lightblue;
+        letter-spacing: 3px;
+    }
+    
+    .left p {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        text-align: justify;
+    }
+    
+    .btn {
+        text-decoration: none;
+        color: white;
+        background-color: tomato;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+    
+    .btn:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .right img {
+        width: 75%;
+        height: auto;
+        border-radius: 20px;
+        filter: brightness(105%);
+    }
+/* About End */
+
+/* Project */
+.wrap {
+    padding: 0 70px;
+}
+
+.Project h1 {
+    font-size: 25px;
+    font-family: 'Mooli', sans-serif;
+    text-decoration: underline 3px solid lightblue;
+    letter-spacing: 3px;
+}
+
+/* Gambar Project */
+.picture {
+   padding: 60px 0;
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.gambar {
+    border: 3px solid rgb(245, 242, 242);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.gambar h2 {
+    padding-top: 10px;
+}
+
+.gambar p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.gambar a {
+    border: 1px solid rgb(245, 242, 242);
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 50, 238);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.gambar1 {
+    border: 3px solid rgb(245, 242, 242);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.gambar1 h2 {
+    padding-top: 10px;
+}
+
+.gambar1 p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.gambar1 a {
+    border: 1px solid rgb(245, 242, 242);
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 50, 238);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.gambar2 {
+    border: 3px solid rgb(245, 242, 242);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.gambar2 h2 {
+    padding-top: 10px;
+}
+
+.gambar2 p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.gambar2 a {
+    border: 1px solid rgb(245, 242, 242);
+    text-decoration: none;
+    color: white;
+    background-color: rgb(179, 50, 238);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+/* Project end */
+
+/* Contact */
+.contact {
+    padding: 0 70px;
+    padding-bottom: 30px;
+}
+
+.contactus h1 {
+    font-size: 25px;
+    font-family: 'Mooli', sans-serif;
+    text-decoration: underline 3px solid lightblue;
+    letter-spacing: 3px;
+}
+
+.contactus p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+/* contact end */
+
+/* icon */
+.icon {
+    padding-top: 20px;
+    display: flex;
+    gap: 20PX;
+}
+
+.icon a {
+    font-size: 25px;
+}
+
+.ig {
+    color: tomato;
+}
+
+.fb {
+    color: blue;
+}
+
+.tw {
+    color: skyblue;
+}
+
+.vt {
+    color:black;
+}
+
+.icon a:hover {
+    color: #000;
+}
+
+.icon .vt:hover {
+    color: tomato;
+}
+
+/* icon end */
+
+/* footer */
+footer {
+    padding: 50px 70px;
+    background-color: #302b63;
+    color: white;
+    text-align: center; 
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;  
+}
+
+.scrollTop:hover {
+    background-color: #000;
+    color: #fff;
+}
+/* footer end */
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 1320px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #11101b;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active {
+        height: 350px;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+
+    /* content */
+    .content {
+        padding: 70px 0 20px 0;
+        text-align: left;
+    }
+
+    .content h1 {
+        padding-left: 30px;
+    }
+
+    .content p {
+        text-align: left;
+    }
+    /* content end */
+
+    /* About */
+    .wrapper {
+        display: inline-block;
+        padding: 50px 10px 20px 30px;
+    }
+
+    .left p {
+        text-align: left;
+        padding-right: 30px;
+    }
+
+    .right {
+       padding-top: 50px;  
+       text-align: center;
+       padding-left: 0;
+       padding-right: 18px;
+     }
+
+    /* About end */
+
+    /* project */
+
+     .wrap {
+       padding: 50px 0 20px 30px;
+     }
+
+     .picture {
+       display: inline-block;
+       padding: 30px 30px 20px 0;
+     }
+
+     .gambar {
+        margin-bottom: 30px;
+     }
+
+     .gambar1 {
+        margin-bottom: 30px;
+     }
+
+    /* project end */
+
+    .contact {
+        padding: 40px 30px 40px 30px;
+    }
+}
